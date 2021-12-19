@@ -1,0 +1,174 @@
+.hero {
+  background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
+    url(../images/Turkey-Turkish-Cappadocia-hot-air-balloons-1149868-wallhere.com.jpg)
+      top center / cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Filter */
+.filter {
+  padding-bottom: 0;
+}
+
+.filter .filter-list {
+  display: flex;
+  align-items: center;
+}
+
+.filter-content > .filter-list > .filter-item {
+  display: inline-block;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(45, 44, 44);
+  text-transform: uppercase;
+  line-height: 50px;
+  cursor: pointer;
+  border: 2px solid rgb(218, 218, 218);
+  padding-left: 25px;
+  padding-right: 14px;
+  margin-right: 16px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.filter-list .filter-item i {
+  padding-left: 5rem;
+  font-size: 1.4rem;
+}
+
+.filter-sub-list {
+  position: absolute;
+  left: 0;
+  top: 106%;
+  width: 100%;
+  background-color: var(--white-color);
+  margin: 0;
+  z-index: 1;
+  box-shadow: 0 15px 25px rgb(63 78 100 / 15%);
+  transition: transalate 0.3s linear;
+  display: none;
+  padding: 0 0.5rem;
+  border: 2px solid rgb(218, 218, 218);
+}
+
+@keyframes transalate {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.filter-list .filter-item:hover .filter-sub-list {
+  display: block;
+}
+
+.filter-sub-list .filter-sub-item:hover {
+  opacity: 0.8;
+}
+
+/* Offer */
+.offers-list .offers-item {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.offers-item .offers-name {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  padding: 1rem 3rem;
+  background-color: var(--primary-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.offers-content .offers-review {
+  position: absolute;
+  right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.offers-review .offers-review-text {
+  font-size: 1.4rem;
+  color: #2d2d2d;
+}
+
+.offers-review .offers-review-text p {
+  color: #a5a5a5;
+}
+
+.offers-review span {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  margin-left: 1rem;
+}
+
+.offers-content .offers-price {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.offers-content .offers-price span {
+  font-size: 1.4rem;
+  color: #929191;
+  font-weight: 500;
+}
+
+.offers-content .offers-favorite {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.offers-content .offers-favorite i:nth-child(1) {
+  color: #ffeb8d;
+}
+.offers-content .offers-favorite i:nth-child(2) {
+  color: #fed46b;
+}
+.offers-content .offers-favorite i:nth-child(3) {
+  color: #fbb53d;
+}
+.offers-content .offers-favorite i:nth-child(4) {
+  color: #fa9e1b;
+}
+.offers-content .offers-favorite i:nth-child(5) {
+  color: #a5a5a5;
+}
+
+.offers-content .offers-desc {
+  font-size: 1.4rem;
+  color: #929191;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.offers-content .offers-icon img {
+  margin-right: 1.5rem;
+}
+
+.offers-content .btn-offers {
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  background: var(--btn-black);
+  color: var(--white-color);
+  border-radius: 30px;
+}
+
+.offers-content .btn-offers:hover {
+  opacity: 0.8;
+}

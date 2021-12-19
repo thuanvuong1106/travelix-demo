@@ -1,0 +1,132 @@
+.hero {
+  background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
+    url(../images/blog_background.jpg) top center / cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Blog */
+.blog-item {
+  padding-top: 3rem;
+}
+
+.blog-item .blog-img {
+  position: relative;
+}
+
+.blog-item .blog-text {
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.blog-text p {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.blog-text span {
+  font-size: 1.4rem;
+}
+
+.blog-right-content {
+  position: relative;
+}
+
+.blog-right-content input {
+  display: inline-block;
+  width: 100%;
+  height: 44px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(230, 231, 244);
+  outline: none;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.blog-right-content i {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  transform: rotate(90deg);
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.blog-right-content i:hover {
+  color: var(--black);
+}
+
+.blog-right-content h2 {
+  color: var(--black);
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.blog-right-content p {
+  font-size: 1.4rem;
+  color: #a5a5a5;
+  margin-bottom: 2rem;
+}
+
+.blog-right-content ul li {
+  margin-bottom: 2rem;
+}
+
+.blog-right-content li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(146, 145, 145);
+}
+
+.blog-left-content ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.blog-left-content li a {
+  font-size: 1.4rem;
+  color: #929191;
+  margin-right: 1rem;
+}
+
+.blog-left-content li a:hover {
+  color: var(--black);
+}
+
+.blog-left-content .blog-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #2d2c2c;
+}
+
+.blog-left-content p {
+  font-size: 1.4rem;
+  color: #a5a5a5;
+  margin-top: 3rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.blog-left-content .btn-news {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}

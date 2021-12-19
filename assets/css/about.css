@@ -1,0 +1,167 @@
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
+    url(../images/Turkey-Turkish-Cappadocia-hot-air-balloons-1149868-wallhere.com.jpg)
+      top center / cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* intro */
+.intro-content h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  color: var(--black);
+}
+
+.intro-content p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #929191;
+  line-height: 2;
+}
+
+.intro-content .btn-intro {
+  background: var(--bg-btn);
+  color: var(--white-color);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.intro-content .btn-intro:hover {
+  background: var(--reverse-color);
+}
+
+/* Statistics */
+.statistic .title p {
+  font-size: 1.4rem;
+  color: #a5a5a5;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.statistic-year {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statistic-year span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.statistic-item {
+  margin-top: 5rem;
+}
+
+.statistic-item .left,
+.statistic-item .right {
+  display: flex;
+  align-items: center;
+}
+
+.statistic-item .left .content,
+.statistic-item .right .content {
+  margin-left: 1rem;
+}
+
+.statistic-item .left p,
+.statistic-item .right p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.statistic-item .left span,
+.statistic-item .right span {
+  font-size: 1.4rem;
+  color: #929191;
+}
+
+.statistic-item .stat-bar {
+  position: relative;
+  width: 100%;
+}
+
+.stat-bar .stat-bar-left {
+  height: 3px;
+  background-color: #e1e1e1;
+  float: left;
+}
+
+.stat-bar .stat-bar-right {
+  height: 3px;
+  float: right;
+  background: rgb(49, 18, 75);
+}
+
+.stat-bar .stat-bar-value {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #929191;
+}
+
+/* poster */
+.poster {
+  background: url(../images/xadd.jpg.pagespeed.ic.GcGK49YYUj.webp) top center /
+    cover no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.poster .content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.poster .content h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.poster .content p {
+  font-size: 1.8rem;
+}
+
+.poster .content .btn-poster {
+  background: var(--bg-btn);
+  color: var(--white-color);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.poster .content .btn-poster:hover {
+  background: var(--reverse-color);
+}
+
+/* Milestone */
+
+.milestone-item {
+  text-align: center;
+}
+
+.milestone-item h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--black);
+  margin: 2rem 0;
+}
+
+.milestone-item p {
+  font-size: 1.4rem;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}

@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelix</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo_title.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Boxicons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Scroll top -->
+    <button class="btn-scroll">
+      <i class="bx bx-up-arrow-alt"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__top__left">
+          <span>+84 945 000 917</span>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-behance"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-dribbble"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__top__right">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__logo">
+          <a href="#">Travelix</a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./offer.html">Offers</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <i class="bx bx-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Slide -->
+    <div class="hero">
+      <div class="hero-top">
+        <h2>DISCOVER</h2>
+        <p>the world</p>
+        <button class="btn btn-hero">Explore now</button>
+      </div>
+      <div class="hero-bottom">
+        <div class="container">
+          <div class="hero-tab">
+            <div class="hero-tab-item active">
+              <img src="./assets/images/hotel.webp" alt="" />
+              <span>Hotels</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/car.webp" alt="" />
+              <span>Car Rentals</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/fly.webp" alt="" />
+              <span>Flight</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/trip.webp" alt="" />
+              <span>Trip</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/cruises.webp" alt="" />
+              <span>Cruises</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/activities.webp" alt="" />
+              <span>Activities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search">
+      <div class="container search-form">
+        <form>
+          <div>
+            <label for="">Destination</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Checkin</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Checkout</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Adults</label>
+            <input type="number" class="form-control" />
+          </div>
+          <div>
+            <label for="">Adults</label>
+            <input type="number" class="form-control" />
+          </div>
+          <button class="btn btn-search">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Tour -->
+    <section class="tour section">
+      <div class="container">
+        <div class="title">
+          <h2>We have the best tours</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
+            convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae
+            cursus mi hendrerit nec.
+          </p>
+        </div>
+
+        <div class="tour-list">
+          <div class="row">
+            <div class="col-4">
+              <div class="tour-item">
+                <div class="tour-overlay"></div>
+                <img
+                  src="./assets/images/xintro_1.jpg.pagespeed.ic.vc2WNRX2pm.webp"
+                  alt=""
+                />
+
+                <div class="tour-content">
+                  <div class="top">
+                    <p>May 15th - july 1st</p>
+                  </div>
+                  <div class="center">
+                    <h2>Mauritius</h2>
+                    <p>From $1450</p>
+                    <div class="tour-favorite">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <button class="btn btn-tour">See more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tour-item">
+                <img
+                  src="./assets/images/xintro_2.jpg.pagespeed.ic.T0_SEU16mo.webp"
+                  alt=""
+                />
+                <div class="tour-overlay"></div>
+
+                <div class="tour-content">
+                  <div class="top">
+                    <p>May 15th - july 1st</p>
+                  </div>
+                  <div class="center">
+                    <h2>Greece</h2>
+                    <p>From $1450</p>
+                    <div class="tour-favorite">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <button class="btn btn-tour">See more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tour-item">
+                <img
+                  src="./assets/images/xintro_3.jpg.pagespeed.ic.56ahj3oq2s.webp"
+                  alt=""
+                />
+                <div class="tour-overlay"></div>
+
+                <div class="tour-content">
+                  <div class="top">
+                    <p>May 15th - july 1st</p>
+                  </div>
+                  <div class="center">
+                    <h2>Scotland</h2>
+                    <p>From $1450</p>
+                    <div class="tour-favorite">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <button class="btn btn-tour">See more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Package -->
+    <section class="package section">
+      <div class="container">
+        <div class="package-content">
+          <div class="title">
+            <h2>MALDIVES DELUXE PACKAGE</h2>
+          </div>
+          <div class="package-favorite">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
+            convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae
+            cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt
+            ultrices, tortor augue gravida lectus, et efficitur enim justo vel
+            ligula.
+          </p>
+          <a href="#" class="btn btn-package">Book now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="offer section">
+      <div class="container">
+        <div class="title">
+          <h2>THE BEST OFFERS WITH ROOMS</h2>
+        </div>
+
+        <div class="offer-list">
+          <div class="row">
+            <div class="col-6">
+              <div class="offer-item">
+                <div class="offer-img">
+                  <img
+                    src="./assets/images/xoffer_1.jpg.pagespeed.ic.LnLHOsFCJq.webp"
+                    alt=""
+                  />
+                  <a href="#" class="offer-name">Grand castle</a>
+                </div>
+                <div class="offer-content">
+                  <p class="offer-price">$70 <span>per night</span></p>
+                  <div class="offer-favorite">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <p class="offer-desc">
+                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Nullam eu convallis
+                    tortor.
+                  </p>
+                  <div class="offer-icons">
+                    <img
+                      src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                      alt=""
+                    />
+                  </div>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="offer-item">
+                <div class="offer-img">
+                  <img
+                    src="./assets/images/xoffer_2.jpg.pagespeed.ic.HA9cJExNCg.webp"
+                    alt=""
+                  />
+                  <a href="#" class="offer-name">Turkey hills</a>
+                </div>
+
+                <div class="offer-content">
+                  <p class="offer-price">$70 <span>per night</span></p>
+                  <div class="offer-favorite">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <p class="offer-desc">
+                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Nullam eu convallis
+                    tortor.
+                  </p>
+                  <div class="offer-icons">
+                    <img
+                      src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                      alt=""
+                    />
+                  </div>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="offer-item">
+                <div class="offer-img">
+                  <img
+                    src="./assets/images/xoffer_3.jpg.pagespeed.ic.9JfYNcm8fb.webp"
+                    alt=""
+                  />
+                  <a href="#" class="offer-name">Island dream</a>
+                </div>
+
+                <div class="offer-content">
+                  <p class="offer-price">$70 <span>per night</span></p>
+                  <div class="offer-favorite">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <p class="offer-desc">
+                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Nullam eu convallis
+                    tortor.
+                  </p>
+                  <div class="offer-icons">
+                    <img
+                      src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                      alt=""
+                    />
+                  </div>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="offer-item">
+                <div class="offer-img">
+                  <img
+                    src="./assets/images/xoffer_4.jpg.pagespeed.ic.sP-uVX8-UR.webp"
+                    alt=""
+                  />
+                  <a href="#" class="offer-name">Travel light</a>
+                </div>
+
+                <div class="offer-content">
+                  <p class="offer-price">$70 <span>per night</span></p>
+                  <div class="offer-favorite">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <p class="offer-desc">
+                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Nullam eu convallis
+                    tortor.
+                  </p>
+                  <div class="offer-icons">
+                    <img
+                      src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                      alt=""
+                    />
+                  </div>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials  -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="title">
+          <h2>WHAT OUR CLIENTS SAY ABOUT US</h2>
+        </div>
+
+        <div class="testimonials-list">
+          <div class="row">
+            <div class="col-4">
+              <div class="testimonials-item">
+                <div class="testimonials-overlay"></div>
+                <img
+                  src="./assets/images/xtest_1.jpg.pagespeed.ic.-6ItEd8cDS.webp"
+                  alt=""
+                />
+                <div class="testimonials-icons">
+                  <img
+                    src="./assets/images/xmilestone_4.png.pagespeed.ic.y4je2yi22m.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonials-content">
+                  <div class="top">
+                    <h2>Carla Smith</h2>
+                    <p>May 24, 2020</p>
+                  </div>
+                  <div class="bottom">
+                    <h2>" Best holliday ever "</h2>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="testimonials-item">
+                <div class="testimonials-overlay"></div>
+                <img
+                  src="./assets/images/xtest_2.jpg.pagespeed.ic.PdNyty5fyM.webp"
+                  alt=""
+                />
+                <div class="testimonials-icons">
+                  <img src="./assets/images/trip.webp" alt="" />
+                </div>
+                <div class="testimonials-content">
+                  <div class="top">
+                    <h2>Carla Smith</h2>
+                    <p>May 24, 2020</p>
+                  </div>
+                  <div class="bottom">
+                    <h2>" Best holliday ever "</h2>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="testimonials-item">
+                <div class="testimonials-overlay"></div>
+                <img
+                  src="./assets/images/xtest_3.jpg.pagespeed.ic.ewoEOM4gUF.webp"
+                  alt=""
+                />
+                <div class="testimonials-icons">
+                  <img src="./assets/images/kayak.png.webp" alt="" />
+                </div>
+                <div class="testimonials-content">
+                  <div class="top">
+                    <h2>Carla Smith</h2>
+                    <p>May 24, 2020</p>
+                  </div>
+                  <div class="bottom">
+                    <h2>" Best holliday ever "</h2>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-border"></div>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section class="trend section">
+      <div class="container">
+        <div class="title">
+          <h2>TRENDING NOW</h2>
+        </div>
+
+        <div class="trend-list">
+          <div class="row">
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_1.png.pagespeed.ic.T7lv0FH9k0.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Grand Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_2.png.pagespeed.ic.RVoMK96K_o.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Grand Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_3.png.pagespeed.ic.r-Q1a1RUR6.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Queen Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_4.png.pagespeed.ic.IIP5He-Ysz.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Mars Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_5.png.pagespeed.ic.7EI7n6G_29.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Grand Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_6.png.pagespeed.ic.VzjfNeZa0P.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Mars Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_7.png.pagespeed.ic.zHzApqDPn0.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Queen Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="trend-item">
+                <div class="trend-img">
+                  <img
+                    src="./assets/images/xtrend_8.png.pagespeed.ic.PnOWJ1cx4g.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="trend-content">
+                  <h2>Mars Hotel</h2>
+                  <p>Form $182</p>
+                  <span>Madrid, Spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section">
+      <div class="contact-bg"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-5"></div>
+          <div class="col-7">
+            <div class="contact-form">
+              <div class="contact-form-title">
+                <h2>GET IN TOUCH</h2>
+              </div>
+
+              <form>
+                <input type="text" class="form-control" placeholder="Name" />
+                <input type="text" class="form-control" placeholder="E-mail" />
+                <input type="text" class="form-control" placeholder="Subject" />
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+                <button class="btn btn-contact">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="footer-about">
+              <div class="footer-about-logo">
+                <img src="./assets/images/logo.webp" alt="" />
+                <h2>Travelix</h2>
+              </div>
+              <p class="footer-about-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit
+                urna. Integer eleme ntum orci eu vehicula pretium.
+              </p>
+              <div class="footer-about-socials">
+                <a href="#"><i class="bx bxl-pinterest"></i></a>
+
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+
+                <a href="#"><i class="bx bxl-dribbble"></i></a>
+
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-blog">
+              <div class="footer-blog-title">
+                <h2>Blog posts</h2>
+              </div>
+
+              <div class="footer-blog-list">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_1.jpg.pagespeed.ic.n5JT1wzbm-.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">Travel with us this year</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_2.jpg.pagespeed.ic.u_Bp7zMu38.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">New destinations for you</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_3.jpg.pagespeed.ic.XDkX_CloU3.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">Travel with us this year</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-tag">
+              <div class="footer-tag-title">
+                <h2>Tags</h2>
+              </div>
+
+              <div class="footer-tag-content">
+                <ul>
+                  <li><a href="#">design</a></li>
+                  <li><a href="#">fashion</a></li>
+                  <li><a href="#">music</a></li>
+                  <li><a href="#">video</a></li>
+                  <li><a href="#">party</a></li>
+                  <li><a href="#">photography</a></li>
+                  <li><a href="#">adventure</a></li>
+                  <li><a href="#">travel</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-contact">
+              <div class="footer-contact-title">
+                <h2>contact info</h2>
+              </div>
+
+              <div class="footer-contact-content">
+                <a href="#">21st, Viet Nam</a>
+                <a href="#">+84 333 666 999</a>
+                <a href="#">contactme@gmail.com</a>
+                <a href="http://www.google.com">www.google.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copy-right">
+          <p>Copyright &copy; 2021 by <a href="">me</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/script/app.js"></script>
+  </body>
+</html>

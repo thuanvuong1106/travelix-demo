@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelix</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo_title.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Boxicons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/offer.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Scroll top -->
+    <button class="btn-scroll">
+      <i class="bx bx-up-arrow-alt"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__top__left">
+          <span>+84 945 000 917</span>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-behance"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="bx bxl-dribbble"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__top__right">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__logo">
+          <a href="#">Travelix</a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./offer.html" class="active">Offers</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <i class="bx bx-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Slide -->
+    <div class="hero">
+      <div class="hero-top">
+        <h2>Our offer</h2>
+      </div>
+      <div class="hero-bottom">
+        <div class="container">
+          <div class="hero-tab">
+            <div class="hero-tab-item active">
+              <img src="./assets/images/hotel.webp" alt="" />
+              <span>Hotels</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/car.webp" alt="" />
+              <span>Car Rentals</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/fly.webp" alt="" />
+              <span>Flight</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/trip.webp" alt="" />
+              <span>Trip</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/cruises.webp" alt="" />
+              <span>Cruises</span>
+            </div>
+            <div class="hero-tab-item">
+              <img src="./assets/images/activities.webp" alt="" />
+              <span>Activities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search">
+      <div class="container search-form">
+        <form>
+          <div>
+            <label for="">Destination</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Checkin</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Checkout</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div>
+            <label for="">Adults</label>
+            <input type="number" class="form-control" />
+          </div>
+          <div>
+            <label for="">Adults</label>
+            <input type="number" class="form-control" />
+          </div>
+          <button class="btn btn-search">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Filter -->
+    <section class="filter section">
+      <div class="container">
+        <div class="filter-content">
+          <ul class="filter-list">
+            <li class="filter-item">
+              price
+              <i class="bx bxs-chevron-down"></i>
+              <ul class="filter-sub-list">
+                <li class="filter-sub-item">Show all</li>
+                <li class="filter-sub-item">Ascending</li>
+              </ul>
+            </li>
+            <li class="filter-item">
+              Location
+              <i class="bx bxs-chevron-down"></i>
+              <ul class="filter-sub-list">
+                <li class="filter-sub-item">Default</li>
+                <li class="filter-sub-item">Alphabetical</li>
+              </ul>
+            </li>
+            <li class="filter-item">
+              Stars
+              <i class="bx bxs-chevron-down"></i>
+              <ul class="filter-sub-list">
+                <li class="filter-sub-item">Show all</li>
+                <li class="filter-sub-item">Ascending</li>
+                <li class="filter-sub-item">3</li>
+                <li class="filter-sub-item">4</li>
+                <li class="filter-sub-item">5</li>
+              </ul>
+            </li>
+            <li class="filter-item">
+              Distance from center
+              <i class="bx bxs-chevron-down"></i>
+              <ul class="filter-sub-list">
+                <li class="filter-sub-item">Distance</li>
+                <li class="filter-sub-item">Distance</li>
+                <li class="filter-sub-item">Distance</li>
+              </ul>
+            </li>
+            <li class="filter-item">
+              Reviews
+              <i class="bx bxs-chevron-down"></i>
+              <ul class="filter-sub-list">
+                <li class="filter-sub-item">Reviews</li>
+                <li class="filter-sub-item">Reviews</li>
+                <li class="filter-sub-item">Reviews</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="offers section">
+      <div class="container">
+        <div class="offers-list">
+          <div class="row">
+            <div class="col-12">
+              <div class="offers-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="./assets/images/xoffer_5.jpg.pagespeed.ic.BPUGlc08kT.webp"
+                      alt=""
+                    />
+                    <h2 class="offers-name">Grand Cattle</h2>
+                  </div>
+                  <div class="col-8">
+                    <div class="offers-content">
+                      <div class="offers-review">
+                        <div class="offers-review-text">
+                          <h3>Very Good</h3>
+                          <p>100 reviews</p>
+                        </div>
+                        <span>8.1</span>
+                      </div>
+                      <p class="offers-price">$70 <span>per night</span></p>
+                      <div class="offers-favorite">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                      </div>
+                      <p class="offers-desc">
+                        Suspendisse potenti. In faucibus massa. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu
+                        convallis tortor. Lorem ipsum dolor sit amet.
+                      </p>
+                      <div class="offers-icon">
+                        <img
+                          src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn btn-offers">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="offers-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="./assets/images/xoffer_6.jpg.pagespeed.ic.z1jAmiqjUy.webp"
+                      alt=""
+                    />
+                    <h2 class="offers-name">TurKey hill</h2>
+                  </div>
+                  <div class="col-8">
+                    <div class="offers-content">
+                      <div class="offers-review">
+                        <div class="offers-review-text">
+                          <h3>Very Good</h3>
+                          <p>100 reviews</p>
+                        </div>
+                        <span>8.1</span>
+                      </div>
+                      <p class="offers-price">$70 <span>per night</span></p>
+                      <div class="offers-favorite">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                      </div>
+                      <p class="offers-desc">
+                        Suspendisse potenti. In faucibus massa. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu
+                        convallis tortor. Lorem ipsum dolor sit amet.
+                      </p>
+                      <div class="offers-icon">
+                        <img
+                          src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn btn-offers">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="offers-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="./assets/images/xoffer_6.jpg.pagespeed.ic.z1jAmiqjUy.webp"
+                      alt=""
+                    />
+                    <h2 class="offers-name">Island dream</h2>
+                  </div>
+                  <div class="col-8">
+                    <div class="offers-content">
+                      <div class="offers-review">
+                        <div class="offers-review-text">
+                          <h3>Very Good</h3>
+                          <p>100 reviews</p>
+                        </div>
+                        <span>8.1</span>
+                      </div>
+                      <p class="offers-price">$70 <span>per night</span></p>
+                      <div class="offers-favorite">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                      </div>
+                      <p class="offers-desc">
+                        Suspendisse potenti. In faucibus massa. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu
+                        convallis tortor. Lorem ipsum dolor sit amet.
+                      </p>
+                      <div class="offers-icon">
+                        <img
+                          src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn btn-offers">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="offers-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="./assets/images/xoffer_7.jpg.pagespeed.ic.yqTUd4HnKP.webp"
+                      alt=""
+                    />
+                    <h2 class="offers-name">Travel Light</h2>
+                  </div>
+                  <div class="col-8">
+                    <div class="offers-content">
+                      <div class="offers-review">
+                        <div class="offers-review-text">
+                          <h3>Very Good</h3>
+                          <p>100 reviews</p>
+                        </div>
+                        <span>8.1</span>
+                      </div>
+                      <p class="offers-price">$70 <span>per night</span></p>
+                      <div class="offers-favorite">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                      </div>
+                      <p class="offers-desc">
+                        Suspendisse potenti. In faucibus massa. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu
+                        convallis tortor. Lorem ipsum dolor sit amet.
+                      </p>
+                      <div class="offers-icon">
+                        <img
+                          src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn btn-offers">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="offers-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="./assets/images/xoffer_8.jpg.pagespeed.ic.7TP4Qvessu.webp"
+                      alt=""
+                    />
+                    <h2 class="offers-name">Travel light</h2>
+                  </div>
+                  <div class="col-8">
+                    <div class="offers-content">
+                      <div class="offers-review">
+                        <div class="offers-review-text">
+                          <h3>Very Good</h3>
+                          <p>100 reviews</p>
+                        </div>
+                        <span>8.1</span>
+                      </div>
+                      <p class="offers-price">$70 <span>per night</span></p>
+                      <div class="offers-favorite">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                      </div>
+                      <p class="offers-desc">
+                        Suspendisse potenti. In faucibus massa. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu
+                        convallis tortor. Lorem ipsum dolor sit amet.
+                      </p>
+                      <div class="offers-icon">
+                        <img
+                          src="./assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp"
+                          alt=""
+                        />
+                        <img
+                          src="./assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn btn-offers">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="footer-about">
+              <div class="footer-about-logo">
+                <img src="./assets/images/logo.webp" alt="" />
+                <h2>Travelix</h2>
+              </div>
+              <p class="footer-about-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit
+                urna. Integer eleme ntum orci eu vehicula pretium.
+              </p>
+              <div class="footer-about-socials">
+                <a href="#"><i class="bx bxl-pinterest"></i></a>
+
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+
+                <a href="#"><i class="bx bxl-dribbble"></i></a>
+
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-blog">
+              <div class="footer-blog-title">
+                <h2>Blog posts</h2>
+              </div>
+
+              <div class="footer-blog-list">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_1.jpg.pagespeed.ic.n5JT1wzbm-.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">Travel with us this year</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_2.jpg.pagespeed.ic.u_Bp7zMu38.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">New destinations for you</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="footer-blog-item">
+                      <img
+                        src="./assets/images/xfooter_blog_3.jpg.pagespeed.ic.XDkX_CloU3.webp"
+                        alt=""
+                      />
+
+                      <div class="footer-blog-content">
+                        <a href="#">Travel with us this year</a>
+                        <p>July 20, 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-tag">
+              <div class="footer-tag-title">
+                <h2>Tags</h2>
+              </div>
+
+              <div class="footer-tag-content">
+                <ul>
+                  <li><a href="#">design</a></li>
+                  <li><a href="#">fashion</a></li>
+                  <li><a href="#">music</a></li>
+                  <li><a href="#">video</a></li>
+                  <li><a href="#">party</a></li>
+                  <li><a href="#">photography</a></li>
+                  <li><a href="#">adventure</a></li>
+                  <li><a href="#">travel</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-contact">
+              <div class="footer-contact-title">
+                <h2>contact info</h2>
+              </div>
+
+              <div class="footer-contact-content">
+                <a href="#">21st, Viet Nam</a>
+                <a href="#">+84 333 666 999</a>
+                <a href="#">contactme@gmail.com</a>
+                <a href="http://www.google.com">www.google.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copy-right">
+          <p>Copyright &copy; 2021 by <a href="">me</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/script/app.js"></script>
+  </body>
+</html>
